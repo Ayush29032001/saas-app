@@ -74,7 +74,7 @@ export default function SideBar() {
             <Image fill alt='logo' src={'/logo.png'} />
           </div>
           <h1 className={cn('text-2xl font-bold', monsterrat.className)}>
-            Smart Bot
+            Geni.ai
           </h1>
         </Link>
         <div className='space-y-1'>

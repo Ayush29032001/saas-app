@@ -19,7 +19,7 @@ import { cn } from '@/lib/utils';
 import { BotAvatar } from '@/components/bot-avatar';
 import { UserAvatar } from '@/components/user-avatar';
 
-export default function ConversationPage() {
+export default function CodePage() {
   const router = useRouter();
   const [messages, setMessages] = useState<
     OpenAI.Chat.ChatCompletionAssistantMessageParam[]
@@ -58,8 +58,8 @@ export default function ConversationPage() {
   return (
     <div>
       <Heading
-        title='Conversation'
-        description='Our most advanced conversation model'
+        title='Code Generation'
+        description='Generate code using descriptive text'
         icon={MessageSquare}
         iconColor='text-violet-500'
         bgColor='bg-violet-500/10'
